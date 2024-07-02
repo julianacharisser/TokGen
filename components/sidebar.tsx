@@ -18,13 +18,13 @@ const routes = [
         color: "text-sky-500",
     },
     {
-        label: "Video Generation",
+        label: "Generate Video",
         icon: VideoIcon,
         href: "/video",
         color: "text-orange-500",
     },
     {
-        label: "Music Generation",
+        label: "Generate Music",
         icon: Music,
         href: "/music",
         color: "text-emerald-500",
