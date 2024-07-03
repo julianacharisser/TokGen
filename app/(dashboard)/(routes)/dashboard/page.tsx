@@ -1,12 +1,19 @@
 "use client";
 
-import { ArrowRight, Music, VideoIcon } from "lucide-react";
+import { ArrowRight, LightbulbIcon, Music, VideoIcon } from "lucide-react";
 
 import { Card } from "@/components/ui/card"
 import { cn } from "@/lib/utils"
 import { useRouter } from "next/navigation";
 
 const tools = [
+    {
+        label: "Generate Ideas",
+        icon: LightbulbIcon,
+        color: "text-violet-500",
+        bgColor: "bg-violet-500/10",
+        href: "/idea",
+    },
     {
         label: "Generate Video",
         icon: VideoIcon,

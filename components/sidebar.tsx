@@ -6,7 +6,7 @@ import { Montserrat } from "next/font/google";
 import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
-import { LayoutDashboard, Music, Settings, VideoIcon } from "lucide-react";
+import { LayoutDashboard, LightbulbIcon, Music, Settings, VideoIcon } from "lucide-react";
 
 const monsterrat = Montserrat({weight: "600", subsets: ["latin"]});
 
@@ -16,6 +16,12 @@ const routes = [
         icon: LayoutDashboard,
         href: "/dashboard",
         color: "text-sky-500",
+    },
+    {
+        label: "Generate Ideas",
+        icon: LightbulbIcon,
+        href: "/idea",
+        color: "text-violet-500",
     },
     {
         label: "Generate Video",
